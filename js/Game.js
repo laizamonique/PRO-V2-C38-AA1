@@ -39,7 +39,34 @@ class Game {
 
   play() {
     this.handleElements();
+var x = allPlayers[plr].positionX;
 
+var y = height - allPlayers [plr].positionY;
+
+cars[index 1].position.x = x;
+
+cars[index - 1]. position.y = y;
+
+
+
+if (index player.index) {
+
+stroke(10); 
+
+fill("red"); 
+
+ellipse(x, y, 60, 60); 
+
+
+
+camera.position.x = cars[index - 1].position.x;
+
+
+
+camera.position.y = cars[index 1].position.y;
+
+}
+}
     Player.getPlayersInfo();
 
     if (allPlayers !== undefined) {
